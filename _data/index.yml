@@ -1,97 +1,101 @@
-badge: '/assets/site/lp-badge-white.svg' 
+badge: '/assets/site/lT-white_svg.svg' 
 icon: '/assets/site/favicon.ico'
 
 slogan: 
   title: >
-    Layout Analysis --
-    in 4 Lines of Code
+    LinkTransformer --
+    AI powered dataframe operations in 2 lines of code
   description: >
-    Transform document image analysis pipelines with the full power of Deep Learning.
+    Link dataframes, deduplicate, cluster and perform multilingual merges with the full power of Deep Learning.
   example: '/assets/images/index/pipeline.png'
-  install: 'pip install layoutparser'
+  install: 'pip install linktransformer'
 
 what:
-  title: What is Layout Parser?
+  title: What is LinkTransformer?
   description: >
-    A Unified Toolkit for Deep Learning Based Document Image Analysis
+    A Unified Python Package for Record Linkage with Transformer models
   functions:  
-    - section: Layout Detection 
+    - section: Record Linkage
       subsections: 
       - name: Deep Learning Models 
-        title: Accurate Layout Detection with a Simple and Clean Interface
+        title: Easy Record Linkage with Deep Learning Models
         description: |
-          With the help of state-of-the-art deep learning models, Layout Parser enables extracting complicated document structures using only several lines of code. 
-          This method is also more robust and generalizable as no sophisticated rules are involved 
-          in this process. 
+          With the help of state-of-the-art deep learning models, LinkTransformer brings the advantages of artificial intelligence to to standard dataframe manipulation tasks like deduplication, clustering and merges.
+          Using most deep learning libraries and pipelines for these tasks is out of reach for the average data analyst. LinkTransformer makes it easy to use these models in a standard daata wrangling workflow with just a few lines of code.
+          Training your own models is also as easy as one line of code with most of the heavy lifting done behind the scenes. The API is designed to be as simple as possible and very familiar to practioners coming from other environments like R and Stata.
 
-          ![Example of an universal API for Layout Detection](/assets/images/index/api-example.png)
-          ▲ *A set of universal APIs for performing layout detections on different types of documents.*
+          ![Example of a familiar API on dataframe manipulation tasks](/assets/site/Linkktransformers_demo_example.png)
+          ▲ *Merge with Language models like you would in Pandas!*
           
-      - name: Pre-trained Model Zoo
-        title: A Wealth of Pre-trained Models on Different Datasets 
+      - name: Use Pre-trained Models
+        title: All models on Hugginface Hub and OpenAI Embedding models are supported
         description: |
-          To accommodate heterogenous document layout structures, Layout Parser a collection of DL models trained on different datasets. Currently the are 9 models trained on 5 diverse datasets, and they can be loaded via a unified interface. 
+          To accommodate heterogenous document layout structures, LinkTransformer a collection of DL models trained on different datasets. Currently the are 9 models trained on 5 diverse datasets, and they can be loaded via a unified interface. 
 
-          ![Different Datasets](/assets/images/index/dataset-illustration.png)
-          ▲ *Exemplar images in the 5 used datasets (screenshots are taken from their papers or open-sourced datasets).* 
-        ref: |
-          - [Layout Parser Model Zoo](https://layout-parser.readthedocs.io/en/latest/notes/modelzoo.html)
+        #   ![Different Datasets](/assets/images/index/dataset-illustration.png)
+        #   ▲ *Exemplar images in the 5 used datasets (screenshots are taken from their papers or open-sourced datasets).* 
+        # ref: |
+        #   - [LinkTransformer Model Zoo](https://layout-parser.readthedocs.io/en/latest/notes/modelzoo.html)
 
-    - section: Post-Processing
-      subsections: 
-      - name: Layout Data structure
-        title: Easy Layout Data Manipulation and Processing
-        description: |
-          Layout Parser supports different levels of abstraction of layout data, and provide three classes of representation for layout data, namely, `Coordinates`, `TextBlock`, and `Layout`. The same operations and transformations are supported inter and intra these classes to maximize the efficiency when processing the layout data. 
+    # - section: Post-Processing
+    #   subsections: 
+    #   - name: Layout Data structure
+    #     title: Easy Layout Data Manipulation and Processing
+    #     description: |
+    #       LinkTransformer supports different levels of abstraction of layout data, and provide three classes of representation for layout data, namely, `Coordinates`, `TextBlock`, and `Layout`. The same operations and transformations are supported inter and intra these classes to maximize the efficiency when processing the layout data. 
 
-          ![Layout Data Structure API Illustration](/assets/images/index/api-specification.png)
-        ref: |
-          - [Layout Data Structure Documentation](https://layout-parser.readthedocs.io/en/latest/api_doc/elements.html)
+    #       ![Layout Data Structure API Illustration](/assets/images/index/api-specification.png)
+    #     ref: |
+    #       - [Layout Data Structure Documentation](https://layout-parser.readthedocs.io/en/latest/api_doc/elements.html)
 
-      - name: Visualization
-        title: Highly Customizable Layout Data Visualization 
-        description: | 
-          Layout Parser visualizes the layout data using a simple syntax: `lp.draw_box` or `lp.draw_text`. It provides two modes for displaying the layout data: Mode I directly overlays the layout region bounding boxes and categories over the original image. Mode II recreates the original document via drawing the OCR’d texts at their corresponding positions on the image canvas.
+    #   - name: Visualization
+    #     title: Highly Customizable Layout Data Visualization 
+    #     description: | 
+    #       LinkTransformer visualizes the layout data using a simple syntax: `lp.draw_box` or `lp.draw_text`. It provides two modes for displaying the layout data: Mode I directly overlays the layout region bounding boxes and categories over the original image. Mode II recreates the original document via drawing the OCR’d texts at their corresponding positions on the image canvas.
 
-          ![Examples of Layout Data Visualization](/assets/images/index/viz-example.png)
-        ref: |
-          - [Layout Parser Visualization Documentation](https://layout-parser.readthedocs.io/en/latest/api_doc/visualization.html)
+    #       ![Examples of Layout Data Visualization](/assets/images/index/viz-example.png)
+    #     ref: |
+    #       - [LinkTransformer Visualization Documentation](https://layout-parser.readthedocs.io/en/latest/api_doc/visualization.html)
 
-      - name: Export and Storage
-        title: Export Layout Data in Your Favorite Format
-        description: | 
-          Layout Parser supports loading and exporting layout data to different formats, including general formats like `csv`, `json`, or domain-specific formats like `PAGE`, `COCO`, or `METS/ALTO` format (Full support for them will be released soon). It provides the flexibility for integrating Layout Parser with other document image analysis pipelines, and makes it easy to share your outputs with the community. 
+    #   - name: Export and Storage
+    #     title: Export Layout Data in Your Favorite Format
+    #     description: | 
+    #       LinkTransformer supports loading and exporting layout data to different formats, including general formats like `csv`, `json`, or domain-specific formats like `PAGE`, `COCO`, or `METS/ALTO` format (Full support for them will be released soon). It provides the flexibility for integrating LinkTransformer with other document image analysis pipelines, and makes it easy to share your outputs with the community. 
 
-    - section: Customization
+    - section: Train your own!
       subsections:
-      - name: Train Layout Models
-        title: Easy to Train Your Own Layout Models with Best Accuracy
+      - name: Train Record Linkage Models
+        title: Easy to Train Your Own Record Linkage models with one line of code
         description: |
-          Layout Parser also comes with full support for customized layout model training on your own dataset. This enables you to achieve optimal prediction accuracy on your own dataset and can simplify your pipeline. Different training mode are supported, i.e., training from scratch or fine-tuning from an existing model. Learn more details at [Layout-Parser/layout-model-training](https://github.com/Layout-Parser/layout-model-training).
+          LinkTransformer also comes with full support for customized record linkage model training on your own dataset. This enables you to achieve optimal prediction accuracy on your own dataset and can simplify your pipeline. 
+          You can train your own or fine-tune any pretrained model from Hugging Face!. Learn more details at [Layout-Parser/layout-model-training](https://github.com/dell-research-harvard/linktransformer).
+          ![Layout Data Structure API Illustration](/assets/images/index/train_lt.png)
         ref: |
-          - [The layout-model-training Repository](https://github.com/Layout-Parser/layout-model-training)
+          - [Tutorial](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg?usp=sharing)
 
-      - name: Efficient Data Labeling
-        title: Efficiently Creating Your Training Dataset
-        description: |
-          No labeled training data available? Don't worry! Layout Parser also incorporates a data annotation toolkit that enables creating the training dataset much more efficiently. 
-          Shown in the illustration below, the tool loads layout predictions from pre-trained models (a), and users only need to select and check a small percentage of model predictions to correct or relabel (b). False-Negative Highlighter (c) helps recognize mis-identified objects from the model predictions. After these steps, the full image annotation is created with less effort.
+      # - name: Efficient Data Labeling
+      #   title: Efficiently Creating Your Training Dataset
+      #   description: |
+      #     No labeled training data available? Don't worry! LinkTransformer also incorporates a data annotation toolkit that enables creating the training dataset much more efficiently. 
+      #     Shown in the illustration below, the tool loads layout predictions from pre-trained models (a), and users only need to select and check a small percentage of model predictions to correct or relabel (b). False-Negative Highlighter (c) helps recognize mis-identified objects from the model predictions. After these steps, the full image annotation is created with less effort.
           
-          ![Illustration of Labeling Interface](/assets/images/index/labeling-ui.png)
+      #     ![Illustration of Labeling Interface](/assets/images/index/labeling-ui.png)
 
-          ▲ *Illustration of the annotation interface with Object-Level Active Learning features.* [Learn more in this paper](https://arxiv.org/pdf/2010.01762.pdf).
-        ref: |
-          - [Layout Annotation Service](https://github.com/Layout-Parser/annotation-service)  
-          - [The PAWLS Annotation Tool](https://github.com/allenai/pawls)  
+      #     ▲ *Illustration of the annotation interface with Object-Level Active Learning features.* [Learn more in this paper](https://arxiv.org/pdf/2010.01762.pdf).
+      #   ref: |
+      #     - [Layout Annotation Service](https://github.com/Layout-Parser/annotation-service)  
+      #     - [The PAWLS Annotation Tool](https://github.com/allenai/pawls)  
 
     - section: Community & Resources
       subsections: 
-      - name: Sharing Platform
-        title: Layout Models & Pipelines Sharing Platform
+      - name: Integration with HuggingFace Hub
+        title: Sharing Trained models on the HuggingFace Hub
         description: |
-          Layout Parser also aims to create a community platform for document image analysis (DIA) research and application. One key challenge in current DIA is the reusability of both layout models and pipelines. Layout Parser maintainers are currently working on implementing the platform for practitioners to share their models and pipelines easily. By streamline the distribution of layout models, as well as promoting the reusability of layout pipelines, it can potentially transform the DIA workflow and pipelines broadly. 
+          LinkTransformer also aims to create a community platform for deep record linkage. Since Deep Learning has barely made any inroads into Record Linkage/Entity matching, trained models would benefit the community - especially those who can't train models themselves. 
+          Since LinkTransformers is well-integrated with the HuggingFace hub, all models can be uploaded/downloaded with a single line of code. By streamline the distribution of record linkage models, as well as promoting the reusability of these deep learning based pipelines, Linktrasnformer can completely transform the record-linakge workflow and pipelines broadly. 
+          Our own models are shared on the hub, and we welcome the community to share their own models as well. 
           <p align="center">
-            <a href="https://layout-parser.github.io/platform/">
+            <a href="https://huggingface.co/dell-research-harvard">
               <img src="/assets/images/index/platform.jpeg" alt="Illustration of the sharing Platform" style="width:75%;"/>
             </a>
           </p>
@@ -99,19 +103,11 @@ what:
         title: 
         description: |
           <div class="video_container">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YG0qepPgyGY" frameborder="0" allowfullscreen="true"></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=Sn47nmCvV9M" frameborder="0" allowfullscreen="true"></iframe>
           </div>
           
-          _Note: This is Layout Parser's presentation video at [ICDAR 2021](https://icdar2021.org), a top venue for document recognition and understanding. In this talk, we discussed the design of the Layout Parser and demoed its key features._
         
 learn:
   title: Get started!
   description:
-    Learn layout parser via a collection of carefully curated tutorials.
-
-slack:
-  title: Join us on Slack!
-  description:
-    Questions or Bugs? Come and join our slack channel! Let's figure out that together and make a vibrant Layout Parser community.
-  figure: '/assets/site/slack-lp.svg'
-    
+    Learn about LinkTransformer via a collection of carefully curated tutorials.

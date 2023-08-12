@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Layout Parser
+title: LinkTransformer
 description: >
-  A Unified Toolkit for Deep Learning Based Document Image Analysis
+  AI powered dataframe operations in 2 lines of code
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://layout-parser.github.io" 
+url: "https://linktransformer.github.io" 
 
 # Build settings
 markdown: kramdown

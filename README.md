@@ -1,2 +1,2 @@
-# Link-Transformer Project Website
+# LinkTransformer Project Website
 
