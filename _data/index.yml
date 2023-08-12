@@ -1,4 +1,4 @@
-badge: '/assets/site/LT_banner.svg' 
+badge: '/assets/site/4.svg' 
 icon: '/assets/site/favicon.ico'
 
 slogan: 
@@ -69,7 +69,7 @@ what:
         description: |
           LinkTransformer also comes with full support for customized record linkage model training on your own dataset. This enables you to achieve optimal prediction accuracy on your own dataset and can simplify your pipeline. 
           You can train your own or fine-tune any pretrained model from Hugging Face!. Learn more details at [Layout-Parser/layout-model-training](https://github.com/dell-research-harvard/linktransformer).
-          ![Layout Data Structure API Illustration](/assets/images/index/train_lt.png)
+          ![Training illustration for LT](/assets/images/index/train_lt.png)
         ref: |
           - [Tutorial](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg?usp=sharing)
 
@@ -99,12 +99,18 @@ what:
               <img src="/assets/site/Upload.png" alt="Illustration of the sharing Platform" style="width:75%;"/>
             </a>
           </p>
-      - name: Tutorial Video
+      - name: Demo Video
         title: 
         description: |
           <div class="video_container">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Sn47nmCvV9M" frameborder="0" allowfullscreen="true"></iframe>
           </div>
+      - name: Tutorial Notebooks
+        title: 
+        description: |
+          - [Train your own LinkTransformer model](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg)
+          - [Feature Round-up for wrangling using Linktransformer](https://colab.research.google.com/drive/1OqUB8sqpUvrnC8oa_1RoOUzV6DaAKL4N)
+ 
           
         
 learn:

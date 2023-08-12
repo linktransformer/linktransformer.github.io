@@ -16,10 +16,10 @@ social:
 # - {name: 'slack', icon: 'fab fa-slack-hash', link: ''}
 - {name: 'Github', icon: 'fab fa-github', link: 'https://github.com/dell-research-harvard/linktransformer'}
 
-tutorials:
-  categories:
-    - {name: 'starter', title: 'Starter Example'}
-    - {name: 'usecase', title: 'Use Cases'}
+# tutorials:
+#   categories:
+#     - {name: 'starter', title: 'Starter Example'}
+#     - {name: 'usecase', title: 'Use Cases'}
 
 footnote: >
   Created and maintained by LinkTransformer Developers. Built with [jekyll](https://jekyllrb.com/) and [bulma](http://bulma.io/).
