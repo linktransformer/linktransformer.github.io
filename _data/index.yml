@@ -1,4 +1,4 @@
-badge: '/assets/site/lT-white_svg.svg' 
+badge: '/assets/site/LT_banner.svg' 
 icon: '/assets/site/favicon.ico'
 
 slogan: 
@@ -7,7 +7,7 @@ slogan:
     AI powered dataframe operations in 2 lines of code
   description: >
     Link dataframes, deduplicate, cluster and perform multilingual merges with the full power of Deep Learning.
-  example: '/assets/images/index/pipeline.png'
+  example: '/assets/site/Linkktransformers_demo_dedup.png'
   install: 'pip install linktransformer'
 
 what:
@@ -96,7 +96,7 @@ what:
           Our own models are shared on the hub, and we welcome the community to share their own models as well. 
           <p align="center">
             <a href="https://huggingface.co/dell-research-harvard">
-              <img src="/assets/images/index/platform.jpeg" alt="Illustration of the sharing Platform" style="width:75%;"/>
+              <img src="/assets/site/Upload.png" alt="Illustration of the sharing Platform" style="width:75%;"/>
             </a>
           </p>
       - name: Tutorial Video

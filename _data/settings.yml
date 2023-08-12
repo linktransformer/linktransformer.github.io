@@ -6,7 +6,7 @@ google-ID:
 
 assets:
   logo: '/assets/site/3.svg' 
-  badge: '/assets/site/LT_white_svg.svg' 
+  badge: '/assets/site/LT_banner.svg' 
 
 menu:
 - {name: 'Tutorials', file: '/tutorials.html'}
