@@ -9,7 +9,7 @@ assets:
   badge: '/assets/site/4.svg' 
 
 menu:
-- {name: 'Tutorials', file: '/tutorials.html'}
+# - {name: 'Tutorials', file: '/tutorials.html'}
 - {name: 'Docs', file: 'https://linktransformer.readthedocs.io/en/latest/'}
 
 social:

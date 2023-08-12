@@ -68,7 +68,7 @@ what:
         title: Easy to Train Your Own Record Linkage models with one line of code
         description: |
           LinkTransformer also comes with full support for customized record linkage model training on your own dataset. This enables you to achieve optimal prediction accuracy on your own dataset and can simplify your pipeline. 
-          You can train your own or fine-tune any pretrained model from Hugging Face!. Learn more details at [Layout-Parser/layout-model-training](https://github.com/dell-research-harvard/linktransformer).
+          You can train your own or fine-tune any pretrained model from Hugging Face!. Learn more details at our [repo](https://github.com/dell-research-harvard/linktransformer).
           ![Training illustration for LT](/assets/images/index/train_lt.png)
         ref: |
           - [Tutorial](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg?usp=sharing)
