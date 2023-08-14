@@ -4,33 +4,33 @@ icon: '/assets/site/favicon.ico'
 slogan: 
   title: >
     LinkTransformer --
-    AI powered dataframe operations in 2 lines of code
+    AI-powered dataframe operations in 2 lines of code
   description: >
-    Link dataframes, deduplicate, cluster and perform multilingual merges with the full power of Deep Learning.
+    Link data frames, deduplicate, cluster, and perform multilingual merges with the full power of Deep Learning.
   example: '/assets/site/Linkktransformers_demo_dedup.png'
   install: 'pip install linktransformer'
 
 what:
   title: What is LinkTransformer?
   description: >
-    A Unified Python Package for Record Linkage with Transformer models
+    A Unified Python Package for Record Linkage with Transformer Models
   functions:  
     - section: Record Linkage
       subsections: 
       - name: Deep Learning Models 
         title: Easy Record Linkage with Deep Learning Models
         description: |
-          With the help of state-of-the-art deep learning models, LinkTransformer brings the advantages of artificial intelligence to to standard dataframe manipulation tasks like deduplication, clustering and merges.
-          Using most deep learning libraries and pipelines for these tasks is out of reach for the average data analyst. LinkTransformer makes it easy to use these models in a standard daata wrangling workflow with just a few lines of code.
-          Training your own models is also as easy as one line of code with most of the heavy lifting done behind the scenes. The API is designed to be as simple as possible and very familiar to practioners coming from other environments like R and Stata.
+          With the help of state-of-the-art deep learning models, LinkTransformer brings the advantages of artificial intelligence to standard dataframe manipulation tasks like deduplication, clustering, and merges.
+          Using most deep-learning libraries and pipelines for these tasks is out of reach for the average data analyst. LinkTransformer makes using these models in a standard daata wrangling workflow easy with just a few lines of code.
+          Training your own models is also as easy as one line of code with most of the heavy lifting done behind the scenes. The API is designed to be as simple as possible and very familiar to practitioners coming from other environments like R and Stata.
 
-          ![Example of a familiar API on dataframe manipulation tasks](/assets/site/Linkktransformers_demo_example.png)
+          ![Example of a familiar API on data frame manipulation tasks](/assets/site/Linkktransformers_demo_example.png)
           ▲ *Merge with Language models like you would in Pandas!*
           
       - name: Use Pre-trained Models
         title: All models on Hugginface Hub and OpenAI Embedding models are supported
         description: |
-          To accommodate heterogenous document layout structures, LinkTransformer a collection of DL models trained on different datasets. Currently the are 9 models trained on 5 diverse datasets, and they can be loaded via a unified interface. 
+          To accommodate heterogenous document layout structures, LinkTransformer a collection of DL models trained on different datasets. Currently, there are over 10 models trained on diverse datasets which can be downloaded from [Hugging Face](https://huggingface.co/dell-research-harvard)
 
         #   ![Different Datasets](/assets/images/index/dataset-illustration.png)
         #   ▲ *Exemplar images in the 5 used datasets (screenshots are taken from their papers or open-sourced datasets).* 
@@ -42,7 +42,7 @@ what:
     #   - name: Layout Data structure
     #     title: Easy Layout Data Manipulation and Processing
     #     description: |
-    #       LinkTransformer supports different levels of abstraction of layout data, and provide three classes of representation for layout data, namely, `Coordinates`, `TextBlock`, and `Layout`. The same operations and transformations are supported inter and intra these classes to maximize the efficiency when processing the layout data. 
+    #       LinkTransformer supports different levels of abstraction of layout data, and provides three classes of representation for layout data, namely, `Coordinates`, `TextBlock`, and `Layout`. The same operations and transformations are supported inter and intra these classes to maximize the efficiency when processing the layout data. 
 
     #       ![Layout Data Structure API Illustration](/assets/images/index/api-specification.png)
     #     ref: |
@@ -68,7 +68,7 @@ what:
         title: Easy to Train Your Own Record Linkage models with one line of code
         description: |
           LinkTransformer also comes with full support for customized record linkage model training on your own dataset. This enables you to achieve optimal prediction accuracy on your own dataset and can simplify your pipeline. 
-          You can train your own or fine-tune any pretrained model from Hugging Face!. Learn more details at our [repo](https://github.com/dell-research-harvard/linktransformer).
+          You can train your own or fine-tune any pretrained model from Hugging Face! Learn more details at our [repo](https://github.com/dell-research-harvard/linktransformer).
           ![Training illustration for LT](/assets/images/index/train_lt.png)
         ref: |
           - [Tutorial](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg?usp=sharing)
@@ -92,7 +92,7 @@ what:
         title: Sharing Trained models on the HuggingFace Hub
         description: |
           LinkTransformer also aims to create a community platform for deep record linkage. Since Deep Learning has barely made any inroads into Record Linkage/Entity matching, trained models would benefit the community - especially those who can't train models themselves. 
-          Since LinkTransformers is well-integrated with the HuggingFace hub, all models can be uploaded/downloaded with a single line of code. By streamline the distribution of record linkage models, as well as promoting the reusability of these deep learning based pipelines, Linktrasnformer can completely transform the record-linakge workflow and pipelines broadly. 
+          Since LinkTransformers is well-integrated with the HuggingFace hub, all models can be uploaded/downloaded with a single line of code. By streamlining the distribution of record linkage models, as well as promoting the reusability of these deep learning-based pipelines, Linktrasnformer can completely transform the record-linkage workflow and pipelines broadly. 
           Our own models are shared on the hub, and we welcome the community to share their own models as well. 
           <p align="center">
             <a href="https://huggingface.co/dell-research-harvard">
