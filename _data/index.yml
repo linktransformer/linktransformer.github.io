@@ -109,6 +109,7 @@ what:
         title: 
         description: |
           - [Train your own LinkTransformer model](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg)
+          - [Link Records and other tasks using LinkTransformer models](https://colab.research.google.com/drive/1OqUB8sqpUvrnC8oa_1RoOUzV6DaAKL4N)
           - [Feature Round-up for wrangling using Linktransformer](https://colab.research.google.com/drive/1OqUB8sqpUvrnC8oa_1RoOUzV6DaAKL4N)
       - name: Feature Deck
         title: 
