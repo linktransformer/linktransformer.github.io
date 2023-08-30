@@ -109,16 +109,15 @@ what:
         title: 
         description: |
           - [Train your own LinkTransformer model](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg)
-          - [Link Records and other tasks using LinkTransformer models](https://colab.research.google.com/drive/1OqUB8sqpUvrnC8oa_1RoOUzV6DaAKL4N)
           - [Feature Round-up for wrangling using Linktransformer](https://colab.research.google.com/drive/1OqUB8sqpUvrnC8oa_1RoOUzV6DaAKL4N)
       - name: Feature Deck
         title: 
         description: |
           - [LinkTransformer API Preview](https://www.dropbox.com/scl/fi/dquxru8bndlyf9na14cw6/A-python-package-to-do-easy-record-linkage-using-Transformer-models.pdf?rlkey=fiv7j6c0vgl901y940054eptk&dl=0)
- 
+      
           
         
 learn:
   title: Get started!
   description:
-    Learn about LinkTransformer via a collection of carefully curated tutorials.
+    Learn about LinkTransformer via a collection of carefully curated tutorials on this website.
