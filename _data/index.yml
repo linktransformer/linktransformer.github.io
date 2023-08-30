@@ -20,7 +20,7 @@ what:
       - name: Deep Learning Models 
         title: Easy Record Linkage with Deep Learning Models
         description: |
-          With the help of state-of-the-art deep learning models, LinkTransformer brings the advantages of artificial intelligence to standard dataframe manipulation tasks like deduplication, clustering, and merges.
+          With the help of state-of-the-art deep learning models, LinkTransformer brings the advantages of artificial intelligence to standard data frame manipulation tasks like deduplication, clustering, and merges.
           Using most deep-learning libraries and pipelines for these tasks is out of reach for the average data analyst. LinkTransformer makes using these models in a standard daata wrangling workflow easy with just a few lines of code.
           Training your own models is also as easy as one line of code with most of the heavy lifting done behind the scenes. The API is designed to be as simple as possible and very familiar to practitioners coming from other environments like R and Stata.
 
@@ -60,7 +60,8 @@ what:
           | French     | dell-research-harvard/lt-un-data-fine-coarse-fr     |
           | Multilingual | dell-research-harvard/lt-un-data-fine-coarse-multi |
 
-          For base models for various languages we recommend the following models : 
+          For base models for various languages, we recommend the following models : 
+          
           | Language   | Base Model                                           |
           |------------|------------------------------------------------------|
           | English    | sentence-transformers/multi-qa-mpnet-base-dot-v1     |
@@ -147,6 +148,7 @@ what:
       - name: Tutorial Notebooks
         title: 
         description: |
+          - [Introducing LinkTransformers](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf#scrollTo=Z3MYVjFTsNIf)
           - [Train your own LinkTransformer model](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg)
           - [Feature Round-up for wrangling using Linktransformer](https://colab.research.google.com/drive/1OqUB8sqpUvrnC8oa_1RoOUzV6DaAKL4N)
       - name: Feature Deck
