@@ -37,41 +37,42 @@ what:
           | Language   | Model Name                                          |
           |------------|------------------------------------------------------|
           | **Company Alias linkage** |                                  |
-          | English    | dell-research-harvard/lt-wikidata-comp-es           |
-          | French     | dell-research-harvard/lt-wikidata-comp-fr           |
-          | Japanese   | dell-research-harvard/lt-wikidata-comp-ja           |
-          | Chinese    | dell-research-harvard/lt-wikidata-comp-zh           |
-          | German     | dell-research-harvard/lt-wikidata-comp-de           |
-          | English    | dell-research-harvard/lt-wikidata-comp-en           |
-          | Multilingual | dell-research-harvard/lt-wikidata-comp-multi       |
-          | Japanese   | dell-research-harvard/lt-wikidata-comp-prod-ind-ja  |
+          | English    | [dell-research-harvard/lt-wikidata-comp-es](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-es)           |
+          | French     | [dell-research-harvard/lt-wikidata-comp-fr](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-fr)           |
+          | Japanese   | [dell-research-harvard/lt-wikidata-comp-ja](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-ja)           |
+          | Chinese    | [dell-research-harvard/lt-wikidata-comp-zh](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-zh)           |
+          | German     | [dell-research-harvard/lt-wikidata-comp-de](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-de)           |
+          | English    | [dell-research-harvard/lt-wikidata-comp-en](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-en)           |
+          | Multilingual | [dell-research-harvard/lt-wikidata-comp-multi](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-multi)       |
+          | Japanese   | [dell-research-harvard/lt-wikidata-comp-prod-ind-ja](https://huggingface.co/dell-research-harvard/lt-wikidata-comp-prod-ind-ja)  |
           | **Product Linkage** |                                     |
-          | English    | dell-research-harvard/lt-un-data-fine-fine-en       |
-          | Spanish    | dell-research-harvard/lt-un-data-fine-fine-es       |
-          | French     | dell-research-harvard/lt-un-data-fine-fine-fr       |
-          | Multilingual | dell-research-harvard/lt-un-data-fine-fine-multi   |
+          | English    | [dell-research-harvard/lt-un-data-fine-fine-en](https://huggingface.co/dell-research-harvard/lt-un-data-fine-fine-en)       |
+          | Spanish    | [dell-research-harvard/lt-un-data-fine-fine-es](https://huggingface.co/dell-research-harvard/lt-un-data-fine-fine-es)       |
+          | French     | [dell-research-harvard/lt-un-data-fine-fine-fr](https://huggingface.co/dell-research-harvard/lt-un-data-fine-fine-fr)       |
+          | Multilingual | [dell-research-harvard/lt-un-data-fine-fine-multi](https://huggingface.co/dell-research-harvard/lt-un-data-fine-fine-multi)   |
           | **Product to Industry Linkage** |                            |
-          | English    | dell-research-harvard/lt-un-data-fine-industry-en   |
-          | Spanish    | dell-research-harvard/lt-un-data-fine-industry-es   |
-          | French     | dell-research-harvard/lt-un-data-fine-industry-fr   |
-          | Multilingual | dell-research-harvard/lt-un-data-fine-industry-multi |
+          | English    | [dell-research-harvard/lt-un-data-fine-industry-en](https://huggingface.co/dell-research-harvard/lt-un-data-fine-industry-en)   |
+          | Spanish    | [dell-research-harvard/lt-un-data-fine-industry-es](https://huggingface.co/dell-research-harvard/lt-un-data-fine-industry-es)   |
+          | French     | [dell-research-harvard/lt-un-data-fine-industry-fr](https://huggingface.co/dell-research-harvard/lt-un-data-fine-industry-fr)   |
+          | Multilingual | [dell-research-harvard/lt-un-data-fine-industry-multi](https://huggingface.co/dell-research-harvard/lt-un-data-fine-industry-multi) |
           | **Product Aggregation** |                                  |
-          | English    | dell-research-harvard/lt-un-data-fine-coarse-en     |
-          | Spanish    | dell-research-harvard/lt-un-data-fine-coarse-es     |
-          | French     | dell-research-harvard/lt-un-data-fine-coarse-fr     |
-          | Multilingual | dell-research-harvard/lt-un-data-fine-coarse-multi |
-
-          For base models for various languages, we recommend the following models : 
+          | English    | [dell-research-harvard/lt-un-data-fine-coarse-en](https://huggingface.co/dell-research-harvard/lt-un-data-fine-coarse-en)     |
+          | Spanish    | [dell-research-harvard/lt-un-data-fine-coarse-es](https://huggingface.co/dell-research-harvard/lt-un-data-fine-coarse-es)     |
+          | French     | [dell-research-harvard/lt-un-data-fine-coarse-fr](https://huggingface.co/dell-research-harvard/lt-un-data-fine-coarse-fr)     |
+          | Multilingual | [dell-research-harvard/lt-un-data-fine-coarse-multi](https://huggingface.co/dell-research-harvard/lt-un-data-fine-coarse-multi) |
+          
+          For base models for various languages, we recommend the following models:
           
           | Language   | Base Model                                           |
           |------------|------------------------------------------------------|
-          | English    | sentence-transformers/multi-qa-mpnet-base-dot-v1     |
-          | Japanese   | oshizo/sbert-jsnli-luke-japanese-base-lite           |
-          | French     | dangvantuan/sentence-camembert-large                |
-          | Chinese    | DMetaSoul/sbert-chinese-qmc-domain-v1               |
-          | Spanish    | hiiamsid/sentence_similarity_spanish_es             |
-          | German     | Sahajtomar/German-semantic                          |
-          | Multilingual | sentence-transformers/paraphrase-multilingual-mpnet-base-v2 |
+          | English    | [sentence-transformers/multi-qa-mpnet-base-dot-v1](https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1)     |
+          | Japanese   | [oshizo/sbert-jsnli-luke-japanese-base-lite](https://huggingface.co/oshizo/sbert-jsnli-luke-japanese-base-lite)           |
+          | French     | [dangvantuan/sentence-camembert-large](https://huggingface.co/dangvantuan/sentence-camembert-large)                |
+          | Chinese    | [DMetaSoul/sbert-chinese-qmc-domain-v1](https://huggingface.co/DMetaSoul/sbert-chinese-qmc-domain-v1)               |
+          | Spanish    | [hiiamsid/sentence_similarity_spanish_es](https://huggingface.co/hiiamsid/sentence_similarity_spanish_es)             |
+          | German     | [Sahajtomar/German-semantic](https://huggingface.co/Sahajtomar/German-semantic)                          |
+          | Multilingual | [sentence-transformers/paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) |
+
 
         #   ![Different Datasets](/assets/images/index/dataset-illustration.png)
         #   ▲ *Exemplar images in the 5 used datasets (screenshots are taken from their papers or open-sourced datasets).* 
