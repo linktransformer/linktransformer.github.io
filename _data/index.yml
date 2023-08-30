@@ -27,7 +27,7 @@ what:
           ![Example of a familiar API on data frame manipulation tasks](/assets/site/Linkktransformers_demo_example.png)
           ▲ *Merge with Language models like you would in Pandas!*
           
-      - name: Use Pre-trained Models
+      - name: Model Zoo
         title: All models on Hugging Face and Open AI embeddings are supported 
         description: |
           All models on the [Hugging Face Hub](https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=trending) (We recommend those trained for sentence similarity tasks) and [OpenAI Embedding models](https://platform.openai.com/docs/guides/embeddings) are supported. 
