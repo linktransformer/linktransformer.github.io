@@ -31,8 +31,8 @@ what:
         title: All models on Hugging Face and Open AI embeddings are supported 
         description: |
           All models on the [Hugging Face Hub](https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=trending) (We recommend those trained for sentence similarity tasks) and [OpenAI Embedding models](https://platform.openai.com/docs/guides/embeddings) are supported. 
-          To accommodate heterogeneous use cases, the LinkTransformer has trained a collection of language models trained on different datasets. A guide on selecting models is included in our [Introductory Notebook](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf#scrollTo=TNG56t4gEH3I)
-          Currently, there are over 20 models trained on diverse datasets which can be downloaded from [Hugging Face](https://huggingface.co/dell-research-harvard)
+          To accommodate heterogeneous use cases, the LinkTransformer has trained a collection of language models trained on different datasets. A guide on selecting models is included in our [Introductory Notebook](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf#scrollTo=TNG56t4gEH3I).
+          Currently, there are over 20 models trained on diverse datasets which can be downloaded from Hugging Face and would be discoverable on this [link](https://huggingface.co/models?other=linktransformer).
           
           | Language   | Model Name                                          |
           |------------|------------------------------------------------------|
@@ -132,9 +132,9 @@ what:
       - name: Integration with HuggingFace Hub
         title: Sharing Trained models on the HuggingFace Hub
         description: |
-          LinkTransformer also aims to create a community platform for deep record linkage. Since Deep Learning has barely made any inroads into Record Linkage/Entity matching, trained models would benefit the community - especially those who can't train models themselves. 
-          Since LinkTransformers is well-integrated with the HuggingFace hub, all models can be uploaded/downloaded with a single line of code. By streamlining the distribution of record linkage models, as well as promoting the reusability of these deep learning-based pipelines, Linktrasnformer can completely transform the record-linkage workflow and pipelines broadly. 
-          Our own models are shared on the hub, and we welcome the community to share their own models as well. 
+          LinkTransformer also aims to create a community for deep record linkage. Since Deep Learning has barely made any inroads into Record Linkage/Entity matching, trained models would benefit the community - especially those who can't train models themselves. 
+          LinkTransformers is well-integrated with the HuggingFace hub, all models can be uploaded/downloaded with a single line of code. By streamlining the distribution of record linkage models, as well as promoting the reusability of these deep learning-based pipelines, Linktrasnformer can completely transform the record-linkage workflow and pipelines broadly. 
+          Our own models are shared on the hub, and we welcome the community to share their own models as well. When using the library to upload LinkTransformers models, they automatically get a "tag" on hugging face and would be discoverable on this [link](https://huggingface.co/models?other=linktransformer).
           <p align="center">
             <a href="https://huggingface.co/dell-research-harvard">
               <img src="/assets/site/Upload.png" alt="Illustration of the sharing Platform" style="width:75%;"/>
