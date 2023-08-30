@@ -28,9 +28,48 @@ what:
           ▲ *Merge with Language models like you would in Pandas!*
           
       - name: Use Pre-trained Models
-        title: All models on Hugginface Hub and OpenAI Embedding models are supported
+        title: All models on HuggingFace Hub and OpenAI Embedding models are supported
         description: |
-          To accommodate heterogenous document layout structures, LinkTransformer a collection of DL models trained on different datasets. Currently, there are over 10 models trained on diverse datasets which can be downloaded from [Hugging Face](https://huggingface.co/dell-research-harvard)
+          To accommodate heterogeneous use cases, LinkTransformer contains a collection of language models trained on different datasets. A guide on selecting models is included in our [Introductory Notebook](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf#scrollTo=TNG56t4gEH3I)
+          Currently, there are over 20 models trained on diverse datasets which can be downloaded from [Hugging Face](https://huggingface.co/dell-research-harvard)
+          
+          | Language   | Model Name                                          |
+          |------------|------------------------------------------------------|
+          | **Company Alias linkage** |                                  |
+          | English    | dell-research-harvard/lt-wikidata-comp-es           |
+          | French     | dell-research-harvard/lt-wikidata-comp-fr           |
+          | Japanese   | dell-research-harvard/lt-wikidata-comp-ja           |
+          | Chinese    | dell-research-harvard/lt-wikidata-comp-zh           |
+          | German     | dell-research-harvard/lt-wikidata-comp-de           |
+          | English    | dell-research-harvard/lt-wikidata-comp-en           |
+          | Multilingual | dell-research-harvard/lt-wikidata-comp-multi       |
+          | Japanese   | dell-research-harvard/lt-wikidata-comp-prod-ind-ja  |
+          | **Product Linkage** |                                     |
+          | English    | dell-research-harvard/lt-un-data-fine-fine-en       |
+          | Spanish    | dell-research-harvard/lt-un-data-fine-fine-es       |
+          | French     | dell-research-harvard/lt-un-data-fine-fine-fr       |
+          | Multilingual | dell-research-harvard/lt-un-data-fine-fine-multi   |
+          | **Product to Industry Linkage** |                            |
+          | English    | dell-research-harvard/lt-un-data-fine-industry-en   |
+          | Spanish    | dell-research-harvard/lt-un-data-fine-industry-es   |
+          | French     | dell-research-harvard/lt-un-data-fine-industry-fr   |
+          | Multilingual | dell-research-harvard/lt-un-data-fine-industry-multi |
+          | **Product Aggregation** |                                  |
+          | English    | dell-research-harvard/lt-un-data-fine-coarse-en     |
+          | Spanish    | dell-research-harvard/lt-un-data-fine-coarse-es     |
+          | French     | dell-research-harvard/lt-un-data-fine-coarse-fr     |
+          | Multilingual | dell-research-harvard/lt-un-data-fine-coarse-multi |
+
+          For base models for various languages we recommend the following models : 
+          | Language   | Base Model                                           |
+          |------------|------------------------------------------------------|
+          | English    | sentence-transformers/multi-qa-mpnet-base-dot-v1     |
+          | Japanese   | oshizo/sbert-jsnli-luke-japanese-base-lite           |
+          | French     | dangvantuan/sentence-camembert-large                |
+          | Chinese    | DMetaSoul/sbert-chinese-qmc-domain-v1               |
+          | Spanish    | hiiamsid/sentence_similarity_spanish_es             |
+          | German     | Sahajtomar/German-semantic                          |
+          | Multilingual | sentence-transformers/paraphrase-multilingual-mpnet-base-v2 |
 
         #   ![Different Datasets](/assets/images/index/dataset-illustration.png)
         #   ▲ *Exemplar images in the 5 used datasets (screenshots are taken from their papers or open-sourced datasets).* 
