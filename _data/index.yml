@@ -28,9 +28,10 @@ what:
           ▲ *Merge with Language models like you would in Pandas!*
           
       - name: Use Pre-trained Models
-        title: All models on the [Hugging Face Hub](https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=trending) (We recommend those trained for sentence similarity tasks) and [OpenAI Embedding models](https://platform.openai.com/docs/guides/embeddings) are supported
+        title: All models on Hugging Face and Open AI embeddings are supported 
         description: |
-          To accommodate heterogeneous use cases, LinkTransformer contains a collection of language models trained on different datasets. A guide on selecting models is included in our [Introductory Notebook](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf#scrollTo=TNG56t4gEH3I)
+          All models on the [Hugging Face Hub](https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=trending) (We recommend those trained for sentence similarity tasks) and [OpenAI Embedding models](https://platform.openai.com/docs/guides/embeddings) are supported. 
+          To accommodate heterogeneous use cases, the LinkTransformer has trained a collection of language models trained on different datasets. A guide on selecting models is included in our [Introductory Notebook](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf#scrollTo=TNG56t4gEH3I)
           Currently, there are over 20 models trained on diverse datasets which can be downloaded from [Hugging Face](https://huggingface.co/dell-research-harvard)
           
           | Language   | Model Name                                          |
