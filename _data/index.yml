@@ -157,11 +157,11 @@ what:
         title: 
         description: |
           - [LinkTransformer API Preview](https://www.dropbox.com/scl/fi/dquxru8bndlyf9na14cw6/A-python-package-to-do-easy-record-linkage-using-Transformer-models.pdf?rlkey=fiv7j6c0vgl901y940054eptk&dl=0)
-        - name: Tutorial Gist
+      - name: Tutorial Gist
         title: 
         description: |
           <script src="https://gist.github.com/econabhishek/995ae454ae1a6b49d49071ac9079855c.js"></script>
-          
+        
               
         
 learn:
