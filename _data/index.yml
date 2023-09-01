@@ -154,11 +154,31 @@ what:
         title: 
         description: |
           - [LinkTransformer API Preview](https://www.dropbox.com/scl/fi/dquxru8bndlyf9na14cw6/A-python-package-to-do-easy-record-linkage-using-Transformer-models.pdf?rlkey=fiv7j6c0vgl901y940054eptk&dl=0)
+      - name: Roadmap
+        title: Coming Soon!
+        description: |
+          - Hard-negative mining for efficient training
+          - FAISS GPU, cuDF, cuML and cuGraph integration
+          - Convenience wrapper to use our models (trained on UN products and Wikidata)
+          - Integration of other modalities in this framework (Vision/Multimodal models)
+          Tell us what other features you would like - raise an issue on our repo or help us develop it!
+          
       # - name: Tutorial Gist
       #   title: 
       #   description: |
       #     <script src="https://gist.github.com/econabhishek/995ae454ae1a6b49d49071ac9079855c.js"></script>
-        
+    - section: About Us
+      subsections: 
+      - name: Team
+        title: Team
+        description: |
+          - [Melissa Dell](https://dell-research-harvard.github.io/) (Co-author)
+          - [Abhishek Arora](https://econabhishek.github.io/) (Co-author)
+          - Sam Caronna Jones (Research Assistant and Package Maintainer)
+      - name: Join us
+        title: Join us!
+        description: |
+          Collaborate with us on the package - check out our repo and contribute!
               
         
 learn:
