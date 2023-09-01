@@ -21,7 +21,7 @@ what:
         title: Easy Record Linkage with Deep Learning Models
         description: |
           With the help of state-of-the-art deep learning models, LinkTransformer brings the advantages of artificial intelligence to standard data frame manipulation tasks like deduplication, clustering, and merges.
-          Using most deep-learning libraries and pipelines for these tasks is out of reach for the average data analyst. LinkTransformer makes using these models in a standard daata wrangling workflow easy with just a few lines of code.
+          Using most deep-learning libraries and pipelines for these tasks is out of reach for the average data analyst. LinkTransformer makes using these models in a standard data-wrangling workflow easy with just a few lines of code.
           Training your own models is also as easy as one line of code with most of the heavy lifting done behind the scenes. The API is designed to be as simple as possible and very familiar to practitioners coming from other environments like R and Stata.
 
           ![Example of a familiar API on data frame manipulation tasks](/assets/site/Linkktransformers_demo_example.png)
