@@ -47,9 +47,42 @@ show_nav: false
             <span class="is-small mr-2">
                 <i class="fas fa-file-alt"></i>
             </span>
-            Arxiv Paper
+            Arxiv
             </a>
             </button>
+<button class="mt-5 install-btn" onclick="copyPipInstall()">
+
+</button>
+    
+    <button class="mt-5 install-btn" onclick="copyBibTeX()">
+        <script>
+            function copyBibTeX() {
+                const bibtexCitation = `@misc{arora2023linktransformer,
+                  title={LinkTransformer: A Unified Package for Record Linkage with Transformer Language Models},
+                  author={Abhishek Arora and Melissa Dell},
+                  year={2023},
+                  eprint={2309.00789},
+                  archivePrefix={arXiv},
+                  primaryClass={cs.CL}
+                }`;
+    
+                var textArea = document.createElement("textarea");
+                textArea.value = bibtexCitation;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand("Copy");
+                textArea.remove();
+                alert("BibTeX Citation Copied!");
+            }
+        </script>
+    
+        <span class="is-small mr-2">
+            <i class="fas fa-copy"></i>
+        </span>
+        <span>Copy BibTeX</span>
+    </button>
+
+            
         </div>
     </div>
 </section>
