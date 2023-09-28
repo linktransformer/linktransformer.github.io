@@ -17,7 +17,7 @@ what:
   functions:  
     - section: Record Linkage
       subsections: 
-      - name: Deep Learning Models 
+      - name: Data Wrangling 
         title: Easy Record Linkage with Deep Learning Models
         description: |
           With the help of state-of-the-art deep learning models, LinkTransformer brings the advantages of artificial intelligence to standard data frame manipulation tasks like deduplication, clustering, and merges.
@@ -26,11 +26,20 @@ what:
 
           ![Example of a familiar API on data frame manipulation tasks](/assets/site/Linkktransformers_demo_example.png)
           ▲ *Merge with Language models like you would in Pandas!*
-          
-      - name: Model Zoo
-        title: All models on Hugging Face and Open AI embeddings are supported 
+      - name: Text Classification
+        title: Easy Text Classification with Deep Learning Models
         description: |
-          LinkTransformer supports all models on the [Hugging Face Hub](https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=trending) (we recommend those trained for sentence similarity tasks) and [OpenAI Embedding models](https://platform.openai.com/docs/guides/embeddings). To accommodate heterogeneous use cases, LinkTransformer has also trained our own collection of open-source language models on different datasets. A guide to selecting models is included in our [Introductory Notebook](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf). Currently, there are over 20 models trained on diverse datasets which can be downloaded from Hugging Face and are discoverable at [this link](https://huggingface.co/models?other=linktransformer).
+          LinkTransformer allows a simple way to access the power of Transformer language models in a simple API to classify rows of a dataframe in one line of code!
+          It supports both [OpenAI](https://chat.openai.com/) and [Hugging Face](https://huggingface.co/) models for the task.
+          We recommend binary classification for beginners, but also support multi-class classification and also support weighted training loss to allow for unbalanced training classes.
+          All you need is a data frame of text you want to classify (row-by-row) to use a pretrained model for classification (like ChatGPT) or a datframe of Text and Class "labels" to train your own models within minutes - that too within a colab session! 
+          Check out this [Tutorial](https://colab.research.google.com/drive/1hSh_p8j7LP2RfdtxrPslOfnogC_CbYw5?usp=sharing)
+          
+          ▲ *Classify Text using Transformer language models as if you are working with Pandas!*
+      - name: Model Zoo
+        title: All models on Hugging Face and Open AI embeddings are supported
+        description: |
+          LinkTransformer supports all models on the [Hugging Face Hub](https://huggingface.co/models?pipeline_tag=sentence-similarity&sort=trending) (we recommend those trained for sentence similarity tasks) and [OpenAI Embedding models](https://platform.openai.com/docs/guides/embeddings). To accommodate heterogeneous use cases, LinkTransformer has also trained our own collection of open-source language models on different datasets for record linkage. A guide to selecting models is included in our [Introductory Notebook](https://colab.research.google.com/drive/1SAvQdgYiX2CinoTC8Y5qtKScNwx3DYXf). Currently, there are over 20 models trained on diverse datasets which can be downloaded from Hugging Face and are discoverable at [this link](https://huggingface.co/models?other=linktransformer).
 
           
           | Language   | Model Name                                          |
@@ -113,6 +122,12 @@ what:
           ![Training illustration for LT](/assets/images/index/train_lt.png)
         ref: |
           - [Tutorial](https://colab.research.google.com/drive/1tHitPGjMMI2Nvh4wwA8rdcbYfbLaJDvg?usp=sharing)
+      - name: Train Classification Models
+        title: Easy to Train Your own Transformer models for Text Classification with one line of code  - for any base model on HuggingFace!
+        description: |
+          LinkTransformer also supports training classification models - just with a single line of code with a data frame of text and labels! 
+        ref: |
+          - [Tutorial](https://colab.research.google.com/drive/1hSh_p8j7LP2RfdtxrPslOfnogC_CbYw5?usp=sharing)
 
       # - name: Efficient Data Labeling
       #   title: Efficiently Creating Your Training Dataset
